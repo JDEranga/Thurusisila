@@ -1,3 +1,5 @@
+"use client";
+import React, { useEffect } from 'react';
 import Image from "next/image";
 
 const rooms = [
@@ -49,17 +51,21 @@ const rooms = [
 ];
 
 const amenities = [
-	{ icon: "🏊", name: "Swimming Pool" },
-	{ icon: "🍽️", name: "Restaurant" },
-	{ icon: "💆", name: "Spa & Wellness" },
-	{ icon: "🏋️", name: "Fitness Center" },
+	{ icon: "🛁", name: "Private Bathroom" },
+	{ icon: "🥂", name: "Dining Area" },
+	{ icon: "🛋️", name: "Living Area" },
+	{ icon: "🌅", name: "Private Balcony" },
 	{ icon: "🅿️", name: "Free Parking" },
 	{ icon: "📶", name: "Free WiFi" },
-	{ icon: "🛎️", name: "24/7 Service" },
-	{ icon: "🚗", name: "Airport Transfer" },
+	{ icon: "🛏️", name: "Comfortable Rooms" },
+	{ icon: "❄️", name: "AC Facilities" },
 ];
 
 export default function Home() {
+	useEffect(() => {
+		document.documentElement.style.scrollBehavior = 'smooth';
+	}, []);
+
 	return (
 		<div className="min-h-screen bg-white font-sans dark:bg-zinc-950">
 			{/* Navigation */}
@@ -94,9 +100,9 @@ export default function Home() {
 						>
 							Contact
 						</a>
-						<button className="rounded-full bg-zinc-900 px-6 py-2.5 text-sm font-medium text-white transition-all hover:bg-zinc-700 dark:bg-white dark:text-zinc-900 dark:hover:bg-zinc-200">
+						<a href="tel:0705645367" className="rounded-full bg-zinc-900 px-6 py-2.5 text-sm font-medium text-white transition-all hover:bg-zinc-700 dark:bg-white dark:text-zinc-900 dark:hover:bg-zinc-200">
 							Book Now
-						</button>
+						</a>
 					</div>
 					<button className="rounded-lg p-2 md:hidden">
 						<svg
@@ -133,13 +139,12 @@ export default function Home() {
 						Welcome to
 					</p>
 					<h1 className="mb-6 text-5xl font-bold leading-tight tracking-tight text-white md:text-7xl">
-						Thurusisila Hotel
+						Thurusisila Resort
 					</h1>
 					<p className="mx-auto mb-10 max-w-2xl text-lg text-zinc-200 md:text-xl">
 						Experience unparalleled luxury and comfort in the heart of paradise.
 						<br className="hidden sm:block" />
-						Your perfect getaway awaits with breathtaking views and world-class
-						service.
+						It's not just a booking it's your private five-star sanctuary
 					</p>
 					<div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
 						<a
@@ -198,7 +203,7 @@ export default function Home() {
 								A Legacy of Luxury & Hospitality
 							</h2>
 							<p className="mb-6 text-lg leading-relaxed text-zinc-600 dark:text-zinc-400">
-								Nestled in a serene location, Thurusisila Hotel offers an
+								Nestled in a serene location, Thurusisila Resort offers an
 								unforgettable experience
 								<br className="hidden sm:block" />
 								combining modern elegance with warm Sri Lankan hospitality. Our
@@ -230,7 +235,7 @@ export default function Home() {
 						<div className="relative h-[400px] overflow-hidden rounded-3xl lg:h-[500px]">
 							<Image
 								src="/about.jpg"
-								alt="Hotel lobby"
+								alt="Resort lobby"
 								fill
 								className="object-cover transition-transform duration-500 hover:scale-105"
 							/>
@@ -306,7 +311,7 @@ export default function Home() {
 							Facilities
 						</p>
 						<h2 className="mb-4 text-4xl font-bold tracking-tight text-white md:text-5xl">
-							Hotel Amenities
+							Resort Amenities
 						</h2>
 						<p className="mx-auto max-w-2xl text-lg text-zinc-400">
 							Enjoy our world-class facilities designed for your comfort and
@@ -336,7 +341,7 @@ export default function Home() {
 				<div className="absolute inset-0">
 					<Image
 						src="https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=1920&q=80"
-						alt="Hotel pool"
+						alt="Resort pool"
 						fill
 						className="object-cover"
 					/>
@@ -409,9 +414,9 @@ export default function Home() {
 						<div>
 							<h4 className="mb-4 font-semibold text-white">Contact</h4>
 							<ul className="space-y-2 text-sm text-zinc-400">
-								<li>📍 123 Paradise Road, Sri Lanka</li>
-								<li>📞 +94 11 234 5678</li>
-								<li>✉️ info@thurusisila.com</li>
+								<li>📍 Thurusisila Resort, Anuradhapura</li>
+								<li>📞 +94 70 564 5367</li>
+								<li>✉️ jaderanga@gmail.com</li>
 							</ul>
 						</div>
 						<div>
@@ -458,7 +463,7 @@ export default function Home() {
 					</div>
 					<div className="mt-12 border-t border-zinc-800 pt-8 text-center">
 						<p className="text-sm text-zinc-500">
-							© 2024 Thurusisila Hotel. All rights reserved.
+							© 2024 Thurusisila Resort. All rights reserved.
 						</p>
 					</div>
 				</div>
