@@ -5,49 +5,59 @@ import Image from "next/image";
 const rooms = [
 	{
 		id: 1,
-		name: "Deluxe Suite",
-		description: "Spacious suite with panoramic views and premium amenities",
+		name: "Deluxe Family Room AC | Non-AC",
+		description: "Comfortable space for the whole family with extra beds",
 		price: 250,
 		image:
-			"https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800&q=80",
-		features: ["King Bed", "Ocean View", "Mini Bar", "Free WiFi"],
+			"/deluxefamily.jpg",
+		features: ["King Beds", "Private Bathroom", "Private Balcony", "Free WiFi", "Living Area", "Kitchenette"],
 	},
 	{
 		id: 2,
-		name: "Executive Room",
+		name: "Deluxe Family Room AC | Non-AC",
 		description: "Perfect for business travelers with a dedicated workspace",
 		price: 180,
 		image:
-			"https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=800&q=80",
-		features: ["Queen Bed", "Work Desk", "Coffee Machine", "Free WiFi"],
+			"/deluxefamily1.jpg",
+		features: ["King Beds", "Private Bathroom", "Private Balcony", "Free WiFi", "Living Area", "Kitchenette"],
 	},
 	{
 		id: 3,
-		name: "Family Suite",
-		description: "Comfortable space for the whole family with extra beds",
+		name: "Standard Family Room",
+		description: "Spacious suite with panoramic views and premium amenities",
 		price: 320,
 		image:
-			"https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=800&q=80",
-		features: ["2 Queen Beds", "Living Area", "Kitchenette", "Free WiFi"],
+			"/deluxefamily2.jpg",
+		features: ["2 Queen Beds", "Living Area", "Kitchenette",, "Private Bathroom", "Private Balcony", "Free WiFi"],
 	},
 	{
 		id: 4,
-		name: "Standard Room",
+		name: "Deluxe Double Room AC | Non-AC",
 		description: "Cozy and affordable room with all essential amenities",
 		price: 120,
 		image:
 			"https://images.unsplash.com/photo-1590490360182-c33d57733427?w=800&q=80",
-		features: ["Double Bed", "TV", "Air Conditioning", "Free WiFi"],
+		features: ["Double Bed", "Living Area", "Kitchenette",, "Private Bathroom", "Private Balcony", "Free WiFi"],
 	},
 	{
 		id: 5,
-		name: "Presidential Suite",
-		description: "Ultimate luxury with private terrace and butler service",
+		name: "Deluxe Double Room AC | Non-AC",
+		description: "Cozy and affordable room with all essential amenities",
 		price: 500,
 		image:
 			"https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&q=80",
-		features: ["King Bed", "Private Terrace", "Jacuzzi", "Butler Service"],
+		features: ["Double Bed", "Living Area", "Kitchenette",, "Private Bathroom", "Private Balcony", "Free WiFi"],
 	},
+	{
+		id: 6,
+		name: "Triple Room AC | Non-AC",
+		description: "Comfortable room for three guests with essential amenities",
+		price: 200,
+		image:
+			"/deluxefamily3.jpg",
+		features: ["2 Double Beds", "Living Area", "Kitchenette",, "Private Bathroom", "Private Balcony", "Free WiFi"],
+	},
+	
 ];
 
 const amenities = [
@@ -273,7 +283,7 @@ export default function Home() {
 										className="object-cover transition-transform duration-500 group-hover:scale-110"
 									/>
 									<div className="absolute right-4 top-4 rounded-full bg-white/90 px-4 py-1.5 text-sm font-semibold text-zinc-900 backdrop-blur-sm">
-										${room.price}/night
+										Night
 									</div>
 								</div>
 								<div className="p-6">
@@ -294,7 +304,7 @@ export default function Home() {
 										))}
 									</div>
 									<button className="w-full rounded-xl bg-zinc-900 py-3 text-sm font-semibold text-white transition-colors hover:bg-amber-500 dark:bg-white dark:text-zinc-900 dark:hover:bg-amber-400">
-										Book Now
+										View Room
 									</button>
 								</div>
 							</div>
@@ -355,9 +365,9 @@ export default function Home() {
 						Book your stay today and enjoy exclusive offers and unforgettable
 						experiences.
 					</p>
-					<button className="rounded-full bg-amber-500 px-10 py-4 text-sm font-semibold text-zinc-900 transition-all hover:bg-amber-400 hover:shadow-lg hover:shadow-amber-500/30">
+					<a href="tel:+94 70 564 5367" className="rounded-full bg-amber-500 px-10 py-4 text-sm font-semibold text-zinc-900 transition-all hover:bg-amber-400 hover:shadow-lg hover:shadow-amber-500/30">
 						Reserve Your Room
-					</button>
+					</a>
 				</div>
 			</section>
 
