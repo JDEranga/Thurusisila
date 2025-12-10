@@ -63,7 +63,7 @@ export default function Home() {
 	return (
 		<div className="min-h-screen bg-white font-sans dark:bg-zinc-950">
 			{/* Navigation */}
-			<nav className="fixed top-0 z-50 w-full bg-white/80 backdrop-blur-md dark:bg-zinc-950/80">
+			<nav className="fixed top-0 z-50 w-full bg-white/80 backdrop-blur-md dark:bg-zinc-950/70">
 				<div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
 					<h1 className="flex items-center text-2xl font-bold tracking-tight text-zinc-900 dark:text-white">
 						<Image
@@ -119,12 +119,12 @@ export default function Home() {
 			{/* Hero Section */}
 			<section className="relative flex min-h-screen items-center justify-center overflow-hidden">
 				<div className="absolute inset-0 z-0">
-					<Image
-						src="https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1920&q=80"
-						alt="Hotel exterior"
-						fill
-						className="object-cover"
-						priority
+					<video
+						autoPlay
+						muted
+						loop
+						className="object-cover w-full h-full"
+						src="/bg.mp4"
 					/>
 					<div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/30 to-black/70" />
 				</div>
@@ -144,7 +144,7 @@ export default function Home() {
 					<div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
 						<a
 							href="#rooms"
-							className="group flex items-center gap-2 rounded-full bg-white px-8 py-4 text-sm font-semibold text-zinc-900 transition-all hover:bg-amber-400 hover:text-zinc-900"
+							className="group flex items-center gap-2 rounded-full bg-white px-8 py-4 text-sm font-semibold text-zinc-900 transition-all hover:bg-lime-500 hover:text-zinc-900"
 						>
 							Explore Rooms
 							<svg
@@ -208,7 +208,7 @@ export default function Home() {
 							</p>
 							<div className="grid grid-cols-3 gap-6">
 								<div className="text-center">
-									<p className="text-3xl font-bold text-amber-500">15+</p>
+									<p className="text-3xl font-bold text-amber-500">10+</p>
 									<p className="text-sm text-zinc-600 dark:text-zinc-400">
 										Years Experience
 									</p>
@@ -229,7 +229,7 @@ export default function Home() {
 						</div>
 						<div className="relative h-[400px] overflow-hidden rounded-3xl lg:h-[500px]">
 							<Image
-								src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=800&q=80"
+								src="/about.jpg"
 								alt="Hotel lobby"
 								fill
 								className="object-cover transition-transform duration-500 hover:scale-105"
