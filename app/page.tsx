@@ -365,7 +365,7 @@ export default function Home() {
 						Book your stay today and enjoy exclusive offers and unforgettable
 						experiences.
 					</p>
-					<a href="tel:+94 70 564 5367" className="rounded-full bg-amber-500 px-10 py-4 text-sm font-semibold text-zinc-900 transition-all hover:bg-amber-400 hover:shadow-lg hover:shadow-amber-500/30">
+					<a href=" tel:+94 70 564 5367" className="rounded-full bg-amber-500 px-10 py-4 text-sm font-semibold text-zinc-900 transition-all hover:bg-amber-400 hover:shadow-lg hover:shadow-amber-500/30">
 						Reserve Your Room
 					</a>
 				</div>
