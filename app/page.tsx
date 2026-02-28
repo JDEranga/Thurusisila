@@ -431,7 +431,7 @@ export default function Home() {
 									{[
 										{ value: "10+", label: "Years Experience", icon: Clock },
 										{ value: "5K+", label: "Happy Guests", icon: Heart },
-										{ value: "4.9", label: "Rating", icon: Star },
+										{ value: "4.5", label: "Rating", icon: Star },
 									].map((stat, i) => (
 										<FadeInSection key={stat.label} delay={0.2 + i * 0.15}>
 											<div className="group rounded-2xl border border-stone-800/50 bg-stone-900/30 p-3 sm:p-5 text-center transition-all duration-500 hover:border-gold/30 hover:bg-stone-900/50">
