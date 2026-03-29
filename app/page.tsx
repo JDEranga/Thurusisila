@@ -636,7 +636,7 @@ export default function Home() {
 					</FadeInSection>
 					<FadeInSection delay={0.45}>
 						<a
-							href="tel:+94 71 847 3167"
+							href="tel:+94 78 810 4762"
 							className="group relative inline-flex items-center gap-2 sm:gap-3 overflow-hidden rounded-full bg-gradient-to-r from-gold-dark via-gold to-gold-light px-8 py-4 sm:px-12 sm:py-5 font-display text-xs sm:text-sm font-bold uppercase tracking-wider text-[#0c0a09] shadow-2xl shadow-gold/20 transition-all duration-500 hover:shadow-gold/40"
 						>
 							<Phone className="h-4 w-4" />
@@ -774,7 +774,7 @@ export default function Home() {
 
 									{/* Phone */}
 									<a
-										href="tel:+94705645367"
+										href="tel:+94 78 810 4762"
 										className="group flex items-start gap-3 sm:gap-4 rounded-xl border border-stone-800/50 bg-stone-900/20 p-4 sm:p-5 transition-all duration-500 hover:border-gold/20 hover:bg-stone-900/40"
 									>
 										<div className="flex h-10 w-10 sm:h-11 sm:w-11 flex-shrink-0 items-center justify-center rounded-lg border border-stone-800 bg-stone-900/50 text-stone-500 transition-all duration-500 group-hover:border-gold/30 group-hover:bg-gold/10 group-hover:text-gold">
@@ -785,7 +785,7 @@ export default function Home() {
 												Phone
 											</p>
 											<p className="font-sans text-sm font-light text-stone-400 transition-colors duration-300 group-hover:text-gold">
-												+94 71 847 3167
+												+94 78 810 4762
 											</p>
 										</div>
 									</a>
