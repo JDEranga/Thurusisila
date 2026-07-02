@@ -820,7 +820,7 @@ export default function Home() {
 									© 2024 Thurusisila Family Holiday Resort. All rights reserved.
 								</p>
 								<p className="mt-1 max-w-xl font-sans text-[11px] font-light leading-relaxed text-stone-500">
-									Codebrewers is an official software development division owned and operated by Thurusisila Family Holiday Resort
+									Codebrewers is an official software development division owned and operated by Thurusisila Family Holiday Resort.
 								</p>
 							</div>
 							<div className="flex gap-6 font-sans text-xs font-light tracking-wider text-stone-400">
