@@ -59,7 +59,7 @@ const rooms = [
 		name: "Deluxe Double Room AC | Non-AC",
 		description: "Cozy and affordable room with all essential amenities",
 		price: 120,
-		image: "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=800&q=80",
+		image: "/deluxedouble1.jpg",
 		features: ["Double Bed", "Living Area", "Kitchenette", "Private Bathroom", "Private Balcony", "Free WiFi"],
 	},
 	{
@@ -67,7 +67,7 @@ const rooms = [
 		name: "Deluxe Double Room AC | Non-AC",
 		description: "Cozy and affordable room with all essential amenities",
 		price: 500,
-		image: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&q=80",
+		image: "/deluxedouble2.jpg",
 		features: ["Double Bed", "Living Area", "Kitchenette", "Private Bathroom", "Private Balcony", "Free WiFi"],
 	},
 	{
@@ -243,7 +243,7 @@ export default function Home() {
 							</a>
 						))}
 						<a
-							href="tel:0718473167"
+								href="tel:+94719671533"
 							className="group relative overflow-hidden rounded-full border border-gold/50 px-7 py-2.5 font-display text-sm font-bold uppercase tracking-wider text-gold transition-all duration-500 hover:border-gold hover:text-[#0c0a09]"
 						>
 							<span className="absolute inset-0 -translate-x-full bg-gradient-to-r from-gold-dark via-gold to-gold-light transition-transform duration-500 group-hover:translate-x-0" />
@@ -636,7 +636,7 @@ export default function Home() {
 					</FadeInSection>
 					<FadeInSection delay={0.45}>
 						<a
-							href="tel:+94 78 810 4762"
+							href="tel:+94719671533"
 							className="group relative inline-flex items-center gap-2 sm:gap-3 overflow-hidden rounded-full bg-gradient-to-r from-gold-dark via-gold to-gold-light px-8 py-4 sm:px-12 sm:py-5 font-display text-xs sm:text-sm font-bold uppercase tracking-wider text-[#0c0a09] shadow-2xl shadow-gold/20 transition-all duration-500 hover:shadow-gold/40"
 						>
 							<Phone className="h-4 w-4" />
@@ -688,7 +688,7 @@ export default function Home() {
 									<div className="flex gap-3">
 										{/* WhatsApp */}
 										<a
-											href="https://wa.me/94705645367"
+											href="https://wa.me/94719671533"
 											target="_blank"
 											rel="noopener noreferrer"
 											aria-label="WhatsApp"
@@ -767,14 +767,14 @@ export default function Home() {
 												Location
 											</p>
 											<p className="font-sans text-sm font-light text-stone-400">
-												Thurusisila Resort, Anuradhapura
+												No. 17/1A, Thurusisila, Wijaya Mawatha, Isurupura, Anuradhapura
 											</p>
 										</div>
 									</div>
 
 									{/* Phone */}
 									<a
-										href="tel:+94 78 810 4762"
+										href="tel:+94719671533"
 										className="group flex items-start gap-3 sm:gap-4 rounded-xl border border-stone-800/50 bg-stone-900/20 p-4 sm:p-5 transition-all duration-500 hover:border-gold/20 hover:bg-stone-900/40"
 									>
 										<div className="flex h-10 w-10 sm:h-11 sm:w-11 flex-shrink-0 items-center justify-center rounded-lg border border-stone-800 bg-stone-900/50 text-stone-500 transition-all duration-500 group-hover:border-gold/30 group-hover:bg-gold/10 group-hover:text-gold">
@@ -785,7 +785,7 @@ export default function Home() {
 												Phone
 											</p>
 											<p className="font-sans text-sm font-light text-stone-400 transition-colors duration-300 group-hover:text-gold">
-												+94 78 810 4762
+												+94 71 967 1533
 											</p>
 										</div>
 									</a>
@@ -815,9 +815,14 @@ export default function Home() {
 					{/* Bottom bar */}
 					<div className="border-t border-stone-800/30 pt-8">
 						<div className="flex flex-col items-center justify-between gap-4 md:flex-row">
-							<p className="font-sans text-xs font-light tracking-wider text-stone-400">
-								© 2024 Thurusisila Resort. All rights reserved.
-							</p>
+							<div className="text-center md:text-left">
+								<p className="font-sans text-xs font-light tracking-wider text-stone-400">
+									© 2024 Thurusisila Resort. All rights reserved.
+								</p>
+								<p className="mt-1 max-w-xl font-sans text-[11px] font-light leading-relaxed text-stone-500">
+									Codebrewers is an official software development division owned and operated by Thurusisila Family Holiday Resort
+								</p>
+							</div>
 							<div className="flex gap-6 font-sans text-xs font-light tracking-wider text-stone-400">
 								<a href="#" className="transition-colors duration-300 hover:text-gold">
 									Privacy Policy
