@@ -817,7 +817,7 @@ export default function Home() {
 						<div className="flex flex-col items-center justify-between gap-4 md:flex-row">
 							<div className="text-center md:text-left">
 								<p className="font-sans text-xs font-light tracking-wider text-stone-400">
-									© 2024 Thurusisila Resort. All rights reserved.
+									© 2024 Thurusisila Family Holiday Resort. All rights reserved.
 								</p>
 								<p className="mt-1 max-w-xl font-sans text-[11px] font-light leading-relaxed text-stone-500">
 									Codebrewers is an official software development division owned and operated by Thurusisila Family Holiday Resort
